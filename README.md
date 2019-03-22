@@ -3,16 +3,16 @@ This repository is containing 200.000 raw images and 100.000 preprocessed  10 ye
 
 ## The Image Data ##
 1 - You can use these datasets with providing the dataset publisher who is me :).
-* [ The raw images ](https://drive.google.com/open?id=1bp-UV0B3a5lmSqq0qjhmzFkktvelQATT "Raw Images")
+* [ The raw images (640x640) ](https://drive.google.com/open?id=1bp-UV0B3a5lmSqq0qjhmzFkktvelQATT "Raw Images")
 
 2 - Preprocessed data ( This dataset has problem that some old and young images are in wrong class. The users should change it. It needs crowd sourcing. )
-* [ Old Images ](https://drive.google.com/open?id=1M_gaKmc97p7K0ychFK-5VP9qKp1fvoix "Old Images")
-* [ Young Images ](https://drive.google.com/open?id=1_IMPZxsuuAeet9MaB9uzgeUCXeLG9VMu "Young Images")
+* [ Old Images (256x256) ](https://drive.google.com/open?id=1M_gaKmc97p7K0ychFK-5VP9qKp1fvoix "Old Images")
+* [ Young Images(256x256) ](https://drive.google.com/open?id=1_IMPZxsuuAeet9MaB9uzgeUCXeLG9VMu "Young Images")
 
 ## Preprocess Details ## 
 1 - Opencv face detector used to detect faces in the raw images. --> [ Face Detector](https://github.com/opencv/opencv/tree/master/samples/dnn/face_detector "Face Detector")
 
-2 - The images have two faces detected in the image is selected and faces are cropped.
+2 - The images have two faces detected and the faces are cropped.
 
 3 - Face alignment is applied that uses affine transformation and Dlib face landmark detection. --> [ Face Alignment ](https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/ "Face Alignment") 
 
@@ -26,9 +26,7 @@ This repository is containing 200.000 raw images and 100.000 preprocessed  10 ye
 
 ## Some Results ##
 * +13 :P
-
-
-
+![Example](https://raw.githubusercontent.com/saitakturk/10yearsAI/master/1.JPG)
 
 ## Further Improvements and Limitations ##
 
