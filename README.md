@@ -30,7 +30,7 @@ This repository is containing 200.000 raw images and 100.000 preprocessed  10 ye
 
 ## Further Improvements and Limitations ##
 
-* Due to high variability of faces that age and ethnicity difference, the head pose and glasses and other materials, I believe using head pose estimation will improve training results.
+* Due to high variability of faces that age and ethnicity difference, the head pose and glasses and other materials reconstructing the faces is challenging. I believe using head pose estimation will improve training results.
 
 * Since the dataset is collected from internet, therefore, the images that is almost 10 years old. The image quality is relatively low quality to process.
 
